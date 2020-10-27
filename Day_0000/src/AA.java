@@ -1,9 +1,9 @@
 
-	Parking에서 
-	정보 출력
-	
-	ParkingExam 
-	입력정보를 받아 주차 사간에 따른 요금설정
+//	Parking에서 
+//	정보 출력
+//	
+//	ParkingExam 
+//	입력정보를 받아 주차 사간에 따른 요금설정
 	
 
 /*  websnet@nate.com

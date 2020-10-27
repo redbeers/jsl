@@ -1,2 +1,0 @@
-module COM.JSL.JAVA {
-}
