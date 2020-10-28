@@ -10,6 +10,7 @@ public class Exam_04 {
 
 	public static void main(String[] args) {
 		
+		
 		File f = new File("C:\\Users\\tkdql\\JAVA\\Date\\outobject.txt");
 		try {
 		FileInputStream fos = new FileInputStream(f);

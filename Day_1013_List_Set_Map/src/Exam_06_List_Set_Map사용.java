@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.List;
 
 /* List :순서가 있다. 중복이 가능
- * Set :숫서가 없다. 중복이 없다.
+ * Set :순서가 없다. 중복이 없다.
  * Map :키와 값이 쌍으로 움직인다.순서없다. 키중복없다. 값중복있다.
  * 
  * 
