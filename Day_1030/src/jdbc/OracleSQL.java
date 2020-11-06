@@ -20,7 +20,7 @@ public class OracleSQL extends OracleConn{
 //		}
 //	}
 	public void exam02 ()throws Exception{
-	String query = "select ename, salary, job, dno, nvl(commission,0) as sum from employee";
+	String query = "select ename, salary, job, dno, nvl(commission,0) as sum,salary*12 as tot from employee";
 	stmt = myConn.createStatement();
 	rs = stmt.executeQuery(query);
 	
@@ -28,9 +28,10 @@ public class OracleSQL extends OracleConn{
 	while(rs.next()) {
 		System.out.print(rs.getString("ename")+"\t");
 		System.out.print(rs.getInt("salary")+"\t");
-		System.out.print(rs.getString("job")+"\t");
+		System.out.print(rs.getString("job")+"\t\t");
 		System.out.print(rs.getInt("dno")+"\t");
 		System.out.print(rs.getInt("sum")+"\t");
+		System.out.print(rs.getInt("tot"));
 		System.out.println();
 		}
 	}

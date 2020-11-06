@@ -1,20 +1,16 @@
+import java.util.Scanner;
 
 public class aaaaaaaaaaa {
 
-    public int[][] solution(int[][] arr1, int[][] arr2) {
-        int[][] answer = new int[arr1.length][arr1[0].length()];
-//       if(answer[]){
-//         for(int i=0; i<2; i++){
-//          answer[i]=   arr[i]+arr2[i];
-//         }
-      
-//             return answer;
-//       }          
-        for(int j=0; j<2; j++){
-                answer[i][j] = arr[i][j]+arr2[i][j];
-            }
-        
-        return answer;
+    public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		String[] d = sc.nextLine().split("");
+		int sum = 0;
+		for(int i=0; i<a; i++) {
+			sum +=Integer.parseInt(d[i]);
+		}
+		System.out.println(sum);
     }
 
 }
